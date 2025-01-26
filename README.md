@@ -16,48 +16,4 @@ Programming Languages: Python
 Libraries:
 Data Processing: Pandas, NumPy
 Visualization: Matplotlib, Seaborn
-Machine Learning: scikit-learn, xverse
-Model Deployment: Flask, FastAPI
-MLOps Tools: MLFlow, CI/CD pipelines
-Other Tools: Weight of Evidence (WoE) for feature engineering
-Project Structure
-plaintext
-Copy
-Edit
-credit-risk-modeling/
-├── data/                # Data files (input and processed datasets)
-├── notebooks/           # Jupyter notebooks for analysis and model development
-├── models/              # Saved models
-├── script/               # Source code for data preprocessing, modeling, and deployment
-│   ├── preprocessing/   # Data preprocessing scripts
-│   ├── features/        # Feature engineering scripts
-│   ├── models/          # Model training and evaluation scripts
-│   └── api/             # REST API implementation
-├── tests/               # Unit and integration tests
-├── .gitignore            
-└── README.md            # Project overview and details
-Getting Started
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/Tsebaot-Girma/credit-risk-modeling
-cd credit-risk-modeling
-2. Install Dependencies
-Use the requirements.txt file to install the necessary Python packages:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Data Preparation
-Place the dataset in the data/ directory.
-Run the preprocessing script to clean and transform the data:
-bash
-Copy
-Edit
-python src/preprocessing/data_preprocessing.py
-4. Train Models
-
-
-
+Machine Learning: scikit-learn
