@@ -27,14 +27,17 @@ def plot_categorical_distribution(data, features):
         plt.title(f'Distribution of {feature}')
         plt.xticks(rotation=45)
         plt.show()
-
 def correlation_analysis(data):
     """Display the correlation matrix."""
+    # Select only numerical columns
+    numerical_data = data.select_dtypes(include=['int64', 'float64'])
+    
     plt.figure(figsize=(12, 8))
-    correlation_matrix = data.corr()
+    correlation_matrix = numerical_data.corr()
     sns.heatmap(correlation_matrix, annot=True, fmt='.2f', cmap='coolwarm')
     plt.title('Correlation Matrix')
     plt.show()
+
 
 def identify_missing_values(data):
     """Identify missing values in the dataset."""
