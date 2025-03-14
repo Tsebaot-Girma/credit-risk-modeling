@@ -1,2 +1,4 @@
 week-6/
 data/
+scripts/__pycache__/
+*.pyc
