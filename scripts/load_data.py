@@ -1,3 +1,4 @@
+#scripts/load_data
 import pandas as pd
 
 def read_csv_file(file_path):
